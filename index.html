@@ -31,11 +31,12 @@
         <div id="side">
             <div class="side-container">
                 
-                <nav>
+                <nav class="nav-container">
                     <div class="logo">
-                        <img src="img/logo.svg" alt="">
+                        <img id="img-logo" src="img/logo.svg" alt="">
                     </div>
-                    <ul>
+
+                    <ul class="nav-container">
                         <li>
                             <a href=""><i class="fa-solid fa-house"></i> Home</a>
                         </li>
@@ -53,7 +54,7 @@
                     <div>
                         <a href=""><i class="fa-solid fa-plus"></i> Crea Playlist</a>
                     </div>
-                    <ul>
+                    <ul class="nav-container">
                         <li><a href="">Nome playlist</a></li>
                         <li><a href="">Nome playlist</a></li>
                         <li><a href="">Nome playlist</a></li>
@@ -61,13 +62,12 @@
                         <li><a href="">Nome playlist</a></li>
                         <li><a href="">Nome playlist</a></li>
                         <li><a href="">Nome playlist</a></li>
-                    
                     </ul>
                 </nav>
                 <div>
                     <a href=""><i class="fa-regular fa-circle-down"></i> Installa app</a>
                     <hr>
-                    <a href=""><i class="fa-sharp fa-solid fa-circle-user"></i><strong>John Doe</strong></a>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i><strong>John Doe</strong>
                 </div>
             </div>
 
@@ -90,17 +90,59 @@
             </div>
             <div class="text-footer">
                 <h5>Sinister</h5>
-                Brano Nome
+                <a href="">Brano Nome</a>
             </div>
             <div class="icons-footer">
                 <div>
-                    <i class="fa-regular fa-heart"></i>
+                    <a href="">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
                 </div>
                 <div>
-                    <i class="fa-sharp fa-regular fa-folder"></i>
+                    <a href="">
+                        <i class="fa-sharp fa-regular fa-folder"></i>
+                    </a>
                 </div>
             </div>
         </div>
+
+
+        <!-- Qui ci va il PLAYER vero e proprio con le icone e la barra della musica -->
+
+
+        <div class="player-container">
+
+            <div class="player">
+                <div class="circle"><a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+
+                <div class="circle"><a href=""><i class="fa-solid fa-angle-left"></i></a></div>
+
+                <div class="circle"><a href=""><i class="fa-regular fa-circle-play"></i></a></div>
+
+                <div class="circle"><a href=""><i class="fa-solid fa-angle-right"></i></a></div>
+
+                <div class="circle"><a href=""><i class="fa-solid fa-arrow-rotate-right"></i></a></div>
+                
+                
+                
+                
+                
+            </div>
+
+        </div>
+
+        <div class="player-sotto">
+            <div>0:25</div>
+            <div id="barra-piccola">
+            </div>
+
+            <div id="barra-grande">
+            </div>
+            
+            <div>4:35</div>
+
+        </div>
+
 
     </footer>
 </body>
