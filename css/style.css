@@ -99,8 +99,30 @@ ul {
         
     }
    
+/* MAIN */
+main{
+    background-color: #141922;
+}
 
-  
+/* banner dell'upgrade sopra il main */
+
+.upgrade{
+    background-color: #080b12; 
+    position: relative;
+    height: 100px;
+}
+
+button{
+    color: white;
+    border-radius: 35%;
+    border: solid 1px white;
+    padding: 10px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
 
 
 /* PLAYER */
