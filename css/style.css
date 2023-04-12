@@ -151,8 +151,20 @@ ul {
 
     /* Parte destra del footer */
 
+.footer-sinistra{
+    width: 15%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 40%;
+    left: 85%;
+}
 
 
+.barra-volume{
+    width: 40%;
+    border-bottom: solid green;
+}
     
 
     
