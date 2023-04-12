@@ -109,7 +109,6 @@ ul {
 
     .player-container{
         height: 30%;
-        background-color: brown;
         width: 20%;
         position: absolute;
         top: 10%;
@@ -123,7 +122,6 @@ ul {
     }
 
     .player-sotto{
-        background-color: rgb(239, 146, 33);
         height: 20px;
         width: 40%;
         position: absolute;
@@ -135,18 +133,7 @@ ul {
         font-size: 10px;
     }
 
-    #barra-piccola{
-        background-color: purple;
-        width: 5%;
-        border-bottom: solid grey;
-    }
 
-
-    #barra-grande{
-        background-color: purple;
-        width: 93%;
-        border-bottom: solid green;
-    }
 
 
     /* Parte destra del footer */
@@ -159,16 +146,15 @@ ul {
     top: 40%;
     left: 85%;
 }
+    
 
-
-.barra-volume{
-    width: 40%;
-    border-bottom: solid green;
+.barra-volume::-webkit-slider-thumb{
+    display: none;
 }
     
-
-    
-
+.barra-volume{
+    width: 100%;
+}
 
 
 
