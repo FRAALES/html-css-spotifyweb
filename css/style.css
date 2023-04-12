@@ -74,6 +74,9 @@ ul {
         position: relative;
     }
 
+
+    /* Parte sinistra Footer */
+
     .left-part-player{
         display: flex;
     }
@@ -99,6 +102,10 @@ ul {
         margin-top: 10px;
         margin-left: 20px;
     }
+
+   
+
+    /* Parte centrale footer */
 
     .player-container{
         height: 30%;
@@ -140,6 +147,9 @@ ul {
         width: 93%;
         border-bottom: solid green;
     }
+
+
+    /* Parte destra del footer */
 
 
 
