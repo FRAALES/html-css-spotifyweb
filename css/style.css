@@ -19,11 +19,10 @@ ul {
 /* UPPER */
     #upper{
         display: flex;
-        height: calc(100vh - 70px);
     }
 
     main{
-        height: 100%;
+        
         width: calc(100vw - 200px);
     }
 
@@ -102,6 +101,7 @@ ul {
 /* MAIN */
 main{
     background-color: #141922;
+    height: ;
 }
 
 /* banner dell'upgrade sopra il main */
@@ -178,6 +178,10 @@ button{
 
 .content-card{
     color: white;
+}
+
+p {
+    color: #7d7f84;
 }
 
 
