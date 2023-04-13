@@ -40,31 +40,35 @@
                     </div>
 
                     <ul class="nav-container">
-                        <li>
+                        <li class="spazio">
                             <a href=""><i class="fa-solid fa-house"></i> <span class="sparisci">Home</span> </a>
                         </li>
                     
-                        <li>
+                        <li class="spazio">
                             <a href=""><i class="fa-solid fa-magnifying-glass"></i><span class="sparisci"> Cerca</span></a>
                         </li>
                     
-                        <li>
+                        <li class="spazio">
                             <a href=""><i class="fa-solid fa-book"></i> <span class="sparisci"> La tua Libreria</span></a>
                         </li>
                     </ul>
                     <span class="sparisci">
-                        <h5>PLAYLIST</h5>
-                        <div>
-                            <a href=""><i class="fa-solid fa-plus"></i> Crea Playlist</a>
+                        <div class="playlist">
+                            <h5 class="spazio-doppio">PLAYLIST</h5>
+                           <div id="crea-playlist">
+                            <span class="plus-container">
+                                <a href=""><i id="plus" class="fa-sharp fa-solid fa-plus"></i>
+                            </span> Crea Playlist</a>
+                           </div> 
                         </div>
                         <ul class="nav-container">
-                            <li><a href="">Nome playlist</a></li>
-                            <li><a href="">Nome playlist</a></li>
-                            <li><a href="">Nome playlist</a></li>
-                            <li><a href="">Nome playlist</a></li>
-                            <li><a href="">Nome playlist</a></li>
-                            <li><a href="">Nome playlist</a></li>
-                            <li><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
+                            <li class="spazio"><a href="">Nome playlist</a></li>
                         </ul>
                     </span>
                 </nav>
@@ -106,145 +110,137 @@
 
 
             <!-- Qui ci va la parte principale del main con le cover degli album -->
-            <section>
+            <div class="container">
+                    <!-- Qui ci vanno i 6 album in fila, la prima row-->
+                    <section>
+                        <h1 class="h1-main">Recently Played</h1>
+                        <div class="cards-container">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/metal_lifting.jpg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Heavy Metal</h3>
+                                        <p>Subtitle</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/stranger.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                        <p>Kyle Dixon and Michael Stein</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/aquietplace.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>A quiet place</h3>
+                                        <p>Subtitle</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/split.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Split</h3>
+                                        <p>Subtitle</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/cure.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>A Cure for wellness</h3>
+                                        <p>Subtitle</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/sinister.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Sinister</h3>
+                                        <p>Subtitle</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Qui ci vanno i 6 album in fila, la prima row-->
-                <h1 class="h1-main">Recently Played</h1>
-
-                <div class="container">
-
-                    <div class="cards-container">
-                        <div class="col">
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/metal_lifting.jpg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>Heavy Metal</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/stranger.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-                                    <p>Kyle Dixon and Michael Stein</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/aquietplace.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>A quiet place</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/split.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>Split</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/cure.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>A Cure for wellness</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/sinister.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>Sinister</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                            </div>
                         </div>
 
-                    </div>
+                    </section>
 
                     <!-- Qui ci vanno i 2 album in fila, la seconda row -->
-                    <h1 class="h1-main">Creato per John Doe</h1>
-                    <p>Più ascolti più accurati saranno i suggerimenti</p>
+                    <section>
+                        <h1 class="h1-main">Creato per John Doe</h1>
+                        <p>Più ascolti più accurati saranno i suggerimenti</p>
 
-                    <div class="cards-container">
-                        <div class="col">
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/radar.jpeg" alt="">
+                        <div class="cards-container">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/radar.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Release Radar</h3>
+                                        
+                                    </div>
                                 </div>
-                                <div class="content-card">
-                                    <h3>Release Radar</h3>
-                                    
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/mixdaily.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>Daily Mix 1</h3>
-                                    
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/mixdaily.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Daily Mix 1</h3>
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
 
                     <!-- Qui ci va la terza row -->
-                    <h1 class="h1-main">Artisti più Popolari</h1>
-                    <p>Più ascolti più accurati saranno i suggerimenti</p>
 
-                    <div class="cards-container">
-                        <div class="col">
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/youg.jpeg" alt="">
+                    <section>
+                        <h1 class="h1-main">Artisti più Popolari</h1>
+                        <p>Più ascolti più accurati saranno i suggerimenti</p>
+
+                        <div class="cards-container">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/youg.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Lana del Rey</h3>
+                                        <p>Subtitle</p>
+                                        
+                                    </div>
                                 </div>
-                                <div class="content-card">
-                                    <h3>Lana del Rey</h3>
-                                    <p>Subtitle</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="img-wrapper">
-                                    <img class="img-main" src="img/einaudi.jpeg" alt="">
-                                </div>
-                                <div class="content-card">
-                                    <h3>Ludovico Einaudi</h3>
-                                    <p>Subtitle</p>
-                                    
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img class="img-main" src="img/einaudi.jpeg" alt="">
+                                    </div>
+                                    <div class="content-card">
+                                        <h3>Ludovico Einaudi</h3>
+                                        <p>Subtitle</p>
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
 
                     
-                </div>
-
-
-
-
-
-
-
-
-
-
-            </section>
-
+            </div>
         </main>
 
     </div>
