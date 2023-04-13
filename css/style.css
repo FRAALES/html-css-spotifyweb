@@ -77,12 +77,14 @@ ul {
     }
 
     #crea-playlist{
-        
+        margin-top: 10px;
         font-size: 20px;
     }
 
     .plus-container{
         background-color: #a3a3a3;
+        margin-right: 10px;
+        
     }
 
     #plus{
@@ -194,6 +196,7 @@ button{
     height: 185px;
     margin: 10px;
     background-color: pink;
+    position: relative;
 }
 
 .img-main{
@@ -214,7 +217,22 @@ p {
 
 .circle-over{
     color: white;
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.play-no-display{
+    display: none;
+}
+
+.play-no-display:hover .circle-over{
+    display: inline;
+}
+
+
 
 
 
