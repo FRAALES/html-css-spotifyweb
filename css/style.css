@@ -130,7 +130,6 @@ ul {
 /* MAIN */
 main{
     background-color: #141922;
-    height: ;
 }
 
 /* banner dell'upgrade sopra il main */
@@ -195,7 +194,7 @@ button{
     width: 185px;
     height: 185px;
     margin: 10px;
-    background-color: pink;
+    background-color:  rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
@@ -228,8 +227,9 @@ p {
     display: none;
 }
 
-.play-no-display:hover .circle-over{
-    display: inline;
+.img-wrapper:hover .play-no-display{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
