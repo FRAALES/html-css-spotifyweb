@@ -124,6 +124,34 @@ button{
 
 }
 
+/* NAV del main */
+
+.nav-main{
+    height: 80px;
+    max-width: 60%;
+    margin: 10px auto;
+    color: #7d7f84;
+}
+
+.ul-nav-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Parte principale Main con gli h1 e gli album in hover */
+
+.h1-main{
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
 
 /* PLAYER */
     footer{
